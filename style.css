@@ -60,6 +60,10 @@ img{
     width:300px;
     height:400px;
 }
+.img2{
+    margin: 50px;
+    width: 400px;
+}
 .imgholder, .imgl, .imgr{
     padding: 4px;
     border: 1px solid #D6D6D6;
@@ -84,26 +88,14 @@ address, article, aside, figcaption, figure, footer, header, nav, section{
     display:block;
     margin:0;
     padding:0;
- }
-
-q{
-    display: block;
-    padding: 0 10px 8px 10px;
-    color: #979797;
-    background-color: #ECECEC;
-    font-style: italic;
-    line-height: normal;
-}
-
-q:before{
-    content: '? ';
-    font-size: 26px;
-}
-q:after{
-    content: ' ?';
-    font-size: 26px;
-    line-height: 0;
   }
+
+p{
+    font-family: Sans-serif;
+    font-size:16px;
+    font-weight: normal;
+    text-transform: none;
+}
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
@@ -167,22 +159,15 @@ h1, h2, h3, h4, h5, h6{
     padding: 20px 0 0 0;
     float: left;
 }
-#header #hgroup h1, #header #hgroup h2{
-    font-size: 20px;
+#header #hgroup h1{
+    font-size: 35px;
     font-weight: normal;
     text-transform: none;
 }
-#header #hgroup h1{
-    font-size: 16px;
-}
-#header #hgroup h1:hover{
-    font-size: 22px;
-    background-color: #FFFFFF;
-    color: yellow;
-}
-
 #header #hgroup h2{
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: none;
 }
 
 #header nav{
