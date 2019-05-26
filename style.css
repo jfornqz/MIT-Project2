@@ -64,6 +64,21 @@ img{
     margin: 50px;
     width: 400px;
 }
+.newpaper {
+    margin: 25px;
+    width: 250px;
+}
+img.resize  {
+    margin: 25px;
+    width: 400px;
+    border: 0;
+    }
+img:hover.resize  {
+    align:center;
+    margin: 25px;
+    width: 500px;
+    border: 0;
+}
 .imgholder, .imgl, .imgr{
     padding: 4px;
     border: 1px solid #D6D6D6;
